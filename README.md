@@ -90,3 +90,8 @@ sudo docker run hello-world
 ```
 
 then Run Dockerfile
+
+```bash
+docker run -d --name node-app-js1 -p 3000:3000 node-app-js1
+docker build . -t node-app-js1
+```
