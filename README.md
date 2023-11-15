@@ -89,7 +89,7 @@ sudo docker run hello-world
 
 ```
 
-then Run Dockerfile
+then Run Dockerfile using jenkins Pipeline
 
 ```bash
 docker run -d --name node-app-js1 -p 3000:3000 node-app-js1
