@@ -89,3 +89,4 @@ sudo docker run hello-world
 
 ```
 
+then Run Dockerfile
