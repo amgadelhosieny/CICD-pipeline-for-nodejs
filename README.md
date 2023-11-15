@@ -1,4 +1,4 @@
-# Node Hello World
+# CICD pipeline using aws, jenkins, Docker, github to create nodejs app
 
 Simple node.js app
 
