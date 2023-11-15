@@ -49,7 +49,8 @@ npm -v
 ```
 
 ## Step 3: Install Git and clone repository from GitHub
-To install git, run below commands in the terminal window:
+
+To install git, run below commands in the terminal:
 
 ```bash
 sudo apt-get update -y
@@ -70,5 +71,21 @@ Get inside the directory and Install Packages and then start
 cd nodejs-on-ec2
 npm install
 npm start
+```
+
+## step 4: Run application using docker
+
+to install docker, run below commands in the terminal:
+
+```bash
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
+sudo apt install docker-ce docker-ce-cli containerd.io
+sudo usermod -aG docker $USER
+sudo docker run hello-world
+
 ```
 
