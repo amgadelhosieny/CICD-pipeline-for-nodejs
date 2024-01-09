@@ -68,7 +68,7 @@ git clone https://github.com/amgadelhosieny/CICD-pipeline-for-nodejs.git
 Get inside the directory and Install Packages and then start
 
 ```bash
-cd nodejs-on-ec2
+cd CICD-pipeline-for-nodejs
 npm install
 npm start
 ```
